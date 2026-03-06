@@ -23,11 +23,11 @@ const ProjectCard: React.FC<{ project: typeof PROJECTS[0] }> = ({ project }) => 
       className="bg-light-secondary dark:bg-secondary p-8 rounded-lg border border-gray-200 dark:border-gray-700/50 shadow-xl overflow-hidden relative group transition-all duration-300 hover:border-accent/50 hover:shadow-2xl hover:shadow-accent/10"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.5 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.5 }}
       onMouseMove={handleMouseMove}
     >
-      <div 
+      <div
         className="pointer-events-none absolute -inset-px rounded-xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         style={{
           background: `radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(244, 63, 94, 0.15), transparent 80%)`

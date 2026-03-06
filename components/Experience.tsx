@@ -35,12 +35,12 @@ const Experience: React.FC<ExperienceProps> = ({ id }) => {
   return (
     <AnimatedSection id={id}>
       <SectionHeader title="Work Experience" subtitle="My Career Journey" />
-      <motion.div 
+      <motion.div
         className="relative border-l-2 border-accent/30 pl-10"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         {EXPERIENCE.map((item, index) => (
           <motion.div key={index} className="mb-10 last:mb-0" variants={itemVariants}>
