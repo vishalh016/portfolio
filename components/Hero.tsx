@@ -177,7 +177,7 @@ const Hero: React.FC<HeroProps> = ({ id }) => {
           >
             <a
               data-cursor-pointer
-              href="https://drive.google.com/file/d/1V_tZ6u4mnKjXq_ZitNxh_I6ifabnO3Vo/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1V_tZ6u4mnKjXq_ZitNxh_I6ifabnO3Vo/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 border-2 border-accent text-accent font-semibold rounded-lg hover:bg-accent hover:text-white transition-all duration-300 w-full sm:w-auto text-center"
