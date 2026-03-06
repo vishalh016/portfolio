@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Bishal Halder - Data Engineer Portfolio
 
-# Run and deploy your AI Studio app
+A modern, interactive, and responsive personal portfolio built with React and Tailwind CSS. It highlights my professional experience, skills, and projects as a Data Engineer specializing in Azure, Databricks, and Spark.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1qk-aTb4TASg_FdjjEJPOFYwAkwtp8vbt
+- **Modern UI & Design:** Built with React and styled using Tailwind CSS for a sleek, responsive design.
+- **Dark Mode Support:** Smoothly transitions between light and dark themes with a floating toggle.
+- **Scroll Animations:** Utilizes Framer Motion for elegant scroll-triggered reveal animations.
+- **Interactive Hero Section:** Features a dynamic particle background (`tsparticles`) and orbiting visual elements.
+- **Functional Contact Form:** Integrated with Web3Forms to securely receive emails directly from the site without needing a backend server.
+- **Custom Cursor:** Custom animated cursor for a unique user experience.
 
-## Run Locally
+## 🛠️ Built With
 
-**Prerequisites:**  Node.js
+- **Framework:** [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [React Icons](https://react-icons.github.io/react-icons/) & [Lucide React](https://lucide.dev/)
+- **Particles:** [tsParticles](https://particles.js.org/)
+- **Forms:** [Web3Forms](https://web3forms.com/)
 
+## 💻 Running Locally
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+To run this portfolio locally on your machine, follow these steps:
+
+1. **Ensure you have Node.js installed.**
+2. **Clone the repository and navigate to the project directory:**
+   ```bash
+   cd Bishal-Cv-main
+   ```
+3. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+5. **Open your browser:** Visit `http://localhost:5173` to view the app!
+
+## 📧 Contact Setup (Web3Forms)
+If you clone this repository for your own use, you will need to update the Contact form:
+1. Go to [Web3Forms](https://web3forms.com/) and generate a free API Access Key.
+2. Open `components/Contact.tsx`.
+3. Locate the `data.append('access_key', 'YOUR_KEY_HERE')` line and paste your Web3Forms access key.
+
+---
+*Designed & Built by Bishal Halder*
