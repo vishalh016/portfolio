@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bishal Halder - Data Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      /* Hide default cursor */
+      body, a, button {
+        cursor: none;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sora: ['Sora', 'sans-serif'],
+            },
+            colors: {
+              'primary': '#111111',
+              'secondary': '#1D1D1D',
+              'accent': '#F43F5E', // rose-500
+              'light-primary': '#FFFFFF',
+              'light-secondary': '#F3F4F6', // gray-100
+            },
+            animation: {
+              'gradient-x': 'gradient-x 15s ease infinite',
+              'spin-slow': 'rotate 6s linear infinite',
+              'gradient-bg': 'gradient-bg 20s ease infinite',
+            },
+            keyframes: {
+              'gradient-x': {
+                '0%, 100%': {
+                  'background-size': '200% 200%',
+                  'background-position': 'left center',
+                },
+                '50%': {
+                  'background-size': '200% 200%',
+                  'background-position': 'right center',
+                },
+              },
+              'rotate': {
+                'from': { transform: 'rotate(0deg)' },
+                'to': { transform: 'rotate(360deg)' },
+              },
+              'gradient-bg': {
+                '0%, 100%': { backgroundPosition: '0% 50%' },
+                '50%': { backgroundPosition: '100% 50%' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.15",
+    "react-icons/": "https://aistudiocdn.com/react-icons@^5.5.0/",
+    "react-icons": "https://aistudiocdn.com/react-icons@^5.5.0",
+    "react-particles": "https://aistudiocdn.com/react-particles@^2.12.2",
+    "@tsparticles/slim": "https://aistudiocdn.com/tsparticles-slim@^2.12.0",
+    "@tsparticles/engine": "https://aistudiocdn.com/tsparticles-engine@^2.12.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.544.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="font-sora text-gray-700 dark:text-gray-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
