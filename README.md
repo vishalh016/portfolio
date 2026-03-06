@@ -27,7 +27,7 @@ To run this portfolio locally on your machine, follow these steps:
 1. **Ensure you have Node.js installed.**
 2. **Clone the repository and navigate to the project directory:**
    ```bash
-   cd Bishal-Cv-main
+   cd portfolio-master
    ```
 3. **Install the dependencies:**
    ```bash
